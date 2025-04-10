@@ -1,13 +1,13 @@
 # Hyperledger Fabric Test Network Setup
 
-This project demonstrates the basic setup and execution of Hyperledger Fabric using its official sample repository. The steps below walk through installing prerequisites, cloning the Fabric samples, and running the test network using the `network.sh` script.
+This project explains how to set up and run a basic Hyperledger Fabric test network using its official sample repository. It includes installing the required tools, downloading the Fabric samples, and using the `network.sh` script.
 
 ---
 
-## 📌 Prerequisites Installation
+## Prerequisites Installation
 
 ### 1. Install Go (Golang)
-We begin by installing Go, which is required for building Fabric binaries.
+Go is needed to build Fabric binaries.
 
 ```bash
 sudo apt install golang-go
@@ -45,7 +45,7 @@ docker-compose --version
 
 ### 4. Verify Directory Structure
 
-Before proceeding, check the current directory structure:
+Check the current directory structure:
 
 ```bash
 ls
@@ -57,9 +57,9 @@ ls
 
 ---
 
-## 📅 Cloning Fabric Samples
+## Cloning Fabric Samples
 
-### 5. Clone Hyperledger Fabric Samples
+### 5. Clone the Fabric Samples Repository
 
 ```bash
 git clone -b main https://github.com/hyperledger/fabric-samples.git
@@ -71,7 +71,7 @@ git clone -b main https://github.com/hyperledger/fabric-samples.git
 
 ---
 
-### 6. Navigate to the Fabric Samples Directory
+### 6. Go to the Fabric Samples Directory
 
 ```bash
 cd fabric-samples
@@ -95,7 +95,7 @@ curl -sSL https://bit.ly/2ysbOFE | bash -s
 
 ---
 
-## 🚀 Running the Test Network
+## Running the Test Network
 
 ### 8. Navigate to the Test Network Folder
 
@@ -105,7 +105,7 @@ cd test-network
 
 ---
 
-### 9. Bring Up the Network
+### 9. Start the Network
 
 ```bash
 ./network.sh up
@@ -141,9 +141,9 @@ cd test-network
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
-This setup demonstrates the basic workflow of initializing and interacting with a Hyperledger Fabric test network. It includes installing required tools, setting up the test environment, and executing network scripts.
+This setup shows how to install tools and run a basic Hyperledger Fabric test network. It includes starting the network, creating a channel, and stopping everything afterward.
 
 ---
 
